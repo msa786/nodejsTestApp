@@ -1,0 +1,41 @@
+block content   
+    link(rel='stylesheet', href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+    script(type='text/javascript', src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js") 
+
+
+
+
+
+// Default form login
+form.text-center.border.border-light.p-5(action='#!')
+  p.h4.mb-4 Sign in
+  // Email
+  input#defaultLoginFormEmail.form-control.mb-4(type='email' placeholder='E-mail')
+  // Password
+  input#defaultLoginFormPassword.form-control.mb-4(type='password' placeholder='Password')
+  .d-flex.justify-content-around
+    div
+      // Remember me
+      .custom-control.custom-checkbox
+        input#defaultLoginFormRemember.custom-control-input(type='checkbox')
+        label.custom-control-label(for='defaultLoginFormRemember') Remember me
+    div
+      // Forgot password
+      a(href='') Forgot password?
+  // Sign in button
+  button.btn.btn-info.btn-block.my-4(type='submit') Sign in
+  // Register
+  p
+    | Not a member?
+    a(href='') Register
+  // Social login
+  p or sign in with:
+  a.mx-2(href='#' role='button')
+    i.fab.fa-facebook-f.light-blue-text
+  a.mx-2(href='#' role='button')
+    i.fab.fa-twitter.light-blue-text
+  a.mx-2(href='#' role='button')
+    i.fab.fa-linkedin-in.light-blue-text
+  a.mx-2(href='#' role='button')
+    i.fab.fa-github.light-blue-text
+// Default form login

@@ -1,0 +1,33 @@
+body {
+  background: lightskyblue;
+  padding: 50px;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: purple;
+}
+
+label{
+  color: black;
+}
+
+div{
+  text-align: center;
+  text-decoration: blue;
+  margin-top: 200px;
+  margin-left: 550px;
+  max-width: min-content;
+  max-height: min-content;
+  
+
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  background-color: whitesmoke;
+}
+h1{
+  color: white;
+}
